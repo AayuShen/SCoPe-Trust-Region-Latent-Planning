@@ -1,0 +1,13 @@
+# Conda half of the environment; the pip half is requirements.txt. Linux / WSL2 only.
+# Pins follow external/dino_wm/environment.yaml except where this hardware forces a change;
+# see docs/experiments/phase0_dino_wm_reproduction.md.
+name: scope
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10          # upstream 3.9; 3.10 is the oldest the cu128 torch stack and our package share cleanly
+  - pip
+  - ffmpeg
+  - gcc=12               # builds any C sdists during the offline install (mujoco-py itself is
+                         # compiled at import time with the system gcc; see scripts/setup_wsl.sh)
+  - gxx=12

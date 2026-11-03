@@ -1,0 +1,33 @@
+# pip half of the environment; conda half is environment.yml. Installed by scripts/setup_wsl.sh.
+# Pins follow external/dino_wm/environment.yaml except where noted in environment.yml.
+# torch/torchvision are the CUDA 12.8 builds, prefetched into the local wheelhouse by
+# scripts/setup_wsl.sh (stage "wheels"); everything else, including the NVIDIA libs, comes from PyPI.
+torch==2.7.1+cu128       # upstream 2.3.0 has no kernels for Blackwell (RTX 50xx, sm_120)
+torchvision==0.22.1+cu128
+numpy==1.26.4
+einops==0.4.1
+hydra-core==1.2.0
+omegaconf==2.3.0
+hydra-submitit-launcher==1.2.0
+submitit==1.5.1
+gym==0.23.1
+cython==0.29.37
+mujoco-py==2.1.2.14
+d4rl==1.1
+pymunk==6.8.0
+shapely==2.0.3
+pygame==2.5.2
+decord==0.6.0
+opencv-python==4.6.0.66
+scikit-image==0.19.3
+scipy==1.13.1
+pandas
+matplotlib==3.5.3
+imageio==2.34.1
+imageio-ffmpeg==0.4.9
+moviepy==1.0.3
+transformers==4.21.1
+accelerate==0.26.1
+wandb==0.13.1
+psutil
+pytest

@@ -84,6 +84,13 @@ perfect:
 
 Rejecting the 30% least-trusted steps by MC-dropout catches **81%** of the wrong steps.
 
+All of these numbers are stored in [`results/`](results/). The trust-score results can be recomputed from the stored data in seconds, without a GPU:
+
+```bash
+python scripts/h1_aggregate.py results/h1_trust/pilot40 results/h1_trust/pilot20_s2 \
+       results/h1_trust/pilot20_s3 --out /tmp/check
+```
+
 **Offline gate test** (80 decisions, one decision = 1.25 points): no gate 71.3%, MC-dropout gate 70%,
 random gate 70%, oracle gate (knows the true error) 72.5%. The differences are within one or two
 decisions.
@@ -145,10 +152,11 @@ camera image + goal image
 | `scripts/download_dino_wm_assets.sh` | Downloads DINO-WM's released checkpoints and datasets (about 6 GB). |
 | `scripts/extract_wall_val.py` | Extracts only the Wall validation episodes (the full Wall set unpacks to 55 GB). |
 | `scripts/launch_detached.ps1` | Windows helper: starts a long WSL job that keeps running after the launching window closes. |
+| `results/` | The measured results: planning success per task, seed and round, and the labelled trust-score data (76,800 imagined steps) with every computed metric. See `results/README.md`. |
 | `environment.yml`, `requirements.txt`, `pyproject.toml` | Dependencies (conda half, pip half) and our `scope` package. |
 | `external/dino_wm/` | **Not included.** DINO-WM's original code goes here (see setup step 2). |
 
-Datasets, checkpoints and run outputs are not in the repository. They are large, and the scripts download
+Datasets, checkpoints and full run logs are not in the repository. They are large, and the scripts download
 or create them.
 
 ## Dependencies
@@ -166,8 +174,8 @@ or create them.
 **1. Get this repository**
 
 ```bash
-git clone https://github.com/AayuShen/scope-planning.git
-cd scope-planning
+git clone https://github.com/AayuShen/SCoPe-Trust-Region-Latent-Planning.git
+cd SCoPe-Trust-Region-Latent-Planning
 ```
 
 **2. Get the original DINO-WM code** (not included here). Download it from the authors' repository,
@@ -245,3 +253,7 @@ decision (`--record 1:48,5:48,10:96`), 4 MC-dropout passes, 30% rejection in the
 - **DINOv2:** M. Oquab et al., TMLR 2024.
 - **MC-dropout:** Y. Gal, Z. Ghahramani. *Dropout as a Bayesian Approximation*, ICML 2016.
 - **PETS:** K. Chua et al., NeurIPS 2018. Uncertainty-aware planning with CEM.
+
+## Licence
+
+Our code is released under the [MIT licence](LICENSE). DINO-WM, which you download separately, has its own MIT licence from its authors.

@@ -1,0 +1,953 @@
+{
+ "source": "outputs/runs/phase0/*/ logs, parsed by docs/mid_review/src/extract_metrics.py",
+ "status": "Measured",
+ "envs": {
+  "pusht": {
+   "99": {
+    "log": "pusht/full_20261010_005356.log",
+    "rounds": [
+     {
+      "solved": 45,
+      "episodes": 50,
+      "rate": 0.9
+     },
+     {
+      "solved": 46,
+      "episodes": 50,
+      "rate": 0.92
+     },
+     {
+      "solved": 46,
+      "episodes": 50,
+      "rate": 0.92
+     },
+     {
+      "solved": 46,
+      "episodes": 50,
+      "rate": 0.92
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.08,
+      "mean_state_dist": 115.42,
+      "seconds": 343
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.18,
+      "mean_state_dist": 81.95,
+      "seconds": 333
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.28,
+      "mean_state_dist": 64.9,
+      "seconds": 332
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.44,
+      "mean_state_dist": 57.13,
+      "seconds": 333
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.54,
+      "mean_state_dist": 49.93,
+      "seconds": 347
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.58,
+      "mean_state_dist": 45.72,
+      "seconds": 343
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.68,
+      "mean_state_dist": 44.05,
+      "seconds": 344
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.7,
+      "mean_state_dist": 40.8,
+      "seconds": 343
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.7,
+      "mean_state_dist": 38.53,
+      "seconds": 343
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.74,
+      "mean_state_dist": 36.67,
+      "seconds": 344
+     },
+     {
+      "iteration": 11,
+      "success_rate": 0.76,
+      "mean_state_dist": 35.05,
+      "seconds": 343
+     },
+     {
+      "iteration": 12,
+      "success_rate": 0.78,
+      "mean_state_dist": 34.46,
+      "seconds": 344
+     },
+     {
+      "iteration": 13,
+      "success_rate": 0.8,
+      "mean_state_dist": 32.94,
+      "seconds": 343
+     },
+     {
+      "iteration": 14,
+      "success_rate": 0.8,
+      "mean_state_dist": 32.54,
+      "seconds": 343
+     },
+     {
+      "iteration": 15,
+      "success_rate": 0.84,
+      "mean_state_dist": 31.72,
+      "seconds": 343
+     },
+     {
+      "iteration": 16,
+      "success_rate": 0.86,
+      "mean_state_dist": 30.75,
+      "seconds": 344
+     },
+     {
+      "iteration": 17,
+      "success_rate": 0.88,
+      "mean_state_dist": 29.39,
+      "seconds": 344
+     },
+     {
+      "iteration": 18,
+      "success_rate": 0.88,
+      "mean_state_dist": 28.47,
+      "seconds": 344
+     },
+     {
+      "iteration": 19,
+      "success_rate": 0.88,
+      "mean_state_dist": 27.76,
+      "seconds": 349
+     },
+     {
+      "iteration": 20,
+      "success_rate": 0.88,
+      "mean_state_dist": 27.72,
+      "seconds": 340
+     },
+     {
+      "iteration": 21,
+      "success_rate": 0.88,
+      "mean_state_dist": 27.1,
+      "seconds": 335
+     },
+     {
+      "iteration": 22,
+      "success_rate": 0.88,
+      "mean_state_dist": 26.8,
+      "seconds": 341
+     },
+     {
+      "iteration": 23,
+      "success_rate": 0.88,
+      "mean_state_dist": 26.17,
+      "seconds": 347
+     },
+     {
+      "iteration": 24,
+      "success_rate": 0.88,
+      "mean_state_dist": 26.02,
+      "seconds": 345
+     },
+     {
+      "iteration": 25,
+      "success_rate": 0.88,
+      "mean_state_dist": 25.76,
+      "seconds": 338
+     },
+     {
+      "iteration": 26,
+      "success_rate": 0.9,
+      "mean_state_dist": 25.71,
+      "seconds": 332
+     },
+     {
+      "iteration": 27,
+      "success_rate": 0.9,
+      "mean_state_dist": 25.26,
+      "seconds": 332
+     },
+     {
+      "iteration": 28,
+      "success_rate": 0.9,
+      "mean_state_dist": 24.99,
+      "seconds": 332
+     },
+     {
+      "iteration": 29,
+      "success_rate": 0.9,
+      "mean_state_dist": 24.56,
+      "seconds": 332
+     },
+     {
+      "iteration": 30,
+      "success_rate": 0.9,
+      "mean_state_dist": 24.1,
+      "seconds": 333
+     }
+    ],
+    "finished": false
+   },
+   "100": {
+    "log": "pusht/seed100_20261010_053933.log",
+    "rounds": [
+     {
+      "solved": 45,
+      "episodes": 50,
+      "rate": 0.9
+     },
+     {
+      "solved": 47,
+      "episodes": 50,
+      "rate": 0.94
+     },
+     {
+      "solved": 47,
+      "episodes": 50,
+      "rate": 0.94
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.04,
+      "mean_state_dist": 104.26,
+      "seconds": 361
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.12,
+      "mean_state_dist": 73.42,
+      "seconds": 356
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.34,
+      "mean_state_dist": 62.29,
+      "seconds": 336
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.44,
+      "mean_state_dist": 53.12,
+      "seconds": 337
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.58,
+      "mean_state_dist": 46.82,
+      "seconds": 345
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.66,
+      "mean_state_dist": 42.94,
+      "seconds": 360
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.68,
+      "mean_state_dist": 41.11,
+      "seconds": 344
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.66,
+      "mean_state_dist": 39.78,
+      "seconds": 342
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.66,
+      "mean_state_dist": 38.53,
+      "seconds": 342
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.76,
+      "mean_state_dist": 36.63,
+      "seconds": 343
+     },
+     {
+      "iteration": 11,
+      "success_rate": 0.78,
+      "mean_state_dist": 36.47,
+      "seconds": 342
+     },
+     {
+      "iteration": 12,
+      "success_rate": 0.8,
+      "mean_state_dist": 34.81,
+      "seconds": 343
+     },
+     {
+      "iteration": 13,
+      "success_rate": 0.84,
+      "mean_state_dist": 33.68,
+      "seconds": 343
+     },
+     {
+      "iteration": 14,
+      "success_rate": 0.82,
+      "mean_state_dist": 33.04,
+      "seconds": 343
+     },
+     {
+      "iteration": 15,
+      "success_rate": 0.82,
+      "mean_state_dist": 31.34,
+      "seconds": 343
+     },
+     {
+      "iteration": 16,
+      "success_rate": 0.84,
+      "mean_state_dist": 31.33,
+      "seconds": 343
+     },
+     {
+      "iteration": 17,
+      "success_rate": 0.86,
+      "mean_state_dist": 30.34,
+      "seconds": 343
+     },
+     {
+      "iteration": 18,
+      "success_rate": 0.86,
+      "mean_state_dist": 29.99,
+      "seconds": 343
+     },
+     {
+      "iteration": 19,
+      "success_rate": 0.88,
+      "mean_state_dist": 28.61,
+      "seconds": 343
+     },
+     {
+      "iteration": 20,
+      "success_rate": 0.88,
+      "mean_state_dist": 28.63,
+      "seconds": 345
+     },
+     {
+      "iteration": 21,
+      "success_rate": 0.9,
+      "mean_state_dist": 28.24,
+      "seconds": 344
+     },
+     {
+      "iteration": 22,
+      "success_rate": 0.9,
+      "mean_state_dist": 28.19,
+      "seconds": 343
+     },
+     {
+      "iteration": 23,
+      "success_rate": 0.9,
+      "mean_state_dist": 28.08,
+      "seconds": 343
+     },
+     {
+      "iteration": 24,
+      "success_rate": 0.9,
+      "mean_state_dist": 27.49,
+      "seconds": 344
+     },
+     {
+      "iteration": 25,
+      "success_rate": 0.9,
+      "mean_state_dist": 27.44,
+      "seconds": 343
+     },
+     {
+      "iteration": 26,
+      "success_rate": 0.9,
+      "mean_state_dist": 27.04,
+      "seconds": 343
+     },
+     {
+      "iteration": 27,
+      "success_rate": 0.9,
+      "mean_state_dist": 27.04,
+      "seconds": 344
+     },
+     {
+      "iteration": 28,
+      "success_rate": 0.9,
+      "mean_state_dist": 26.74,
+      "seconds": 343
+     },
+     {
+      "iteration": 29,
+      "success_rate": 0.9,
+      "mean_state_dist": 26.37,
+      "seconds": 343
+     },
+     {
+      "iteration": 30,
+      "success_rate": 0.9,
+      "mean_state_dist": 26.15,
+      "seconds": 343
+     }
+    ],
+    "finished": true
+   },
+   "101": {
+    "log": "pusht/seed101_20261010_090821.log",
+    "rounds": [
+     {
+      "solved": 41,
+      "episodes": 50,
+      "rate": 0.82
+     },
+     {
+      "solved": 42,
+      "episodes": 50,
+      "rate": 0.84
+     },
+     {
+      "solved": 42,
+      "episodes": 50,
+      "rate": 0.84
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.04,
+      "mean_state_dist": 126.79,
+      "seconds": 346
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.1,
+      "mean_state_dist": 88.9,
+      "seconds": 345
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.24,
+      "mean_state_dist": 72.66,
+      "seconds": 344
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.38,
+      "mean_state_dist": 59.89,
+      "seconds": 345
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.5,
+      "mean_state_dist": 52.87,
+      "seconds": 345
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.62,
+      "mean_state_dist": 45.05,
+      "seconds": 347
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.62,
+      "mean_state_dist": 41.26,
+      "seconds": 342
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.64,
+      "mean_state_dist": 37.83,
+      "seconds": 337
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.68,
+      "mean_state_dist": 35.96,
+      "seconds": 335
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.78,
+      "mean_state_dist": 34.62,
+      "seconds": 336
+     },
+     {
+      "iteration": 11,
+      "success_rate": 0.76,
+      "mean_state_dist": 32.92,
+      "seconds": 337
+     },
+     {
+      "iteration": 12,
+      "success_rate": 0.78,
+      "mean_state_dist": 32.35,
+      "seconds": 339
+     },
+     {
+      "iteration": 13,
+      "success_rate": 0.78,
+      "mean_state_dist": 31.95,
+      "seconds": 345
+     },
+     {
+      "iteration": 14,
+      "success_rate": 0.8,
+      "mean_state_dist": 31.44,
+      "seconds": 359
+     },
+     {
+      "iteration": 15,
+      "success_rate": 0.8,
+      "mean_state_dist": 31.35,
+      "seconds": 357
+     },
+     {
+      "iteration": 16,
+      "success_rate": 0.82,
+      "mean_state_dist": 30.68,
+      "seconds": 356
+     },
+     {
+      "iteration": 17,
+      "success_rate": 0.8,
+      "mean_state_dist": 30.01,
+      "seconds": 356
+     },
+     {
+      "iteration": 18,
+      "success_rate": 0.78,
+      "mean_state_dist": 29.6,
+      "seconds": 351
+     },
+     {
+      "iteration": 19,
+      "success_rate": 0.78,
+      "mean_state_dist": 29.08,
+      "seconds": 364
+     },
+     {
+      "iteration": 20,
+      "success_rate": 0.8,
+      "mean_state_dist": 28.72,
+      "seconds": 370
+     },
+     {
+      "iteration": 21,
+      "success_rate": 0.8,
+      "mean_state_dist": 28.38,
+      "seconds": 367
+     },
+     {
+      "iteration": 22,
+      "success_rate": 0.84,
+      "mean_state_dist": 27.93,
+      "seconds": 369
+     },
+     {
+      "iteration": 23,
+      "success_rate": 0.82,
+      "mean_state_dist": 27.56,
+      "seconds": 372
+     },
+     {
+      "iteration": 24,
+      "success_rate": 0.82,
+      "mean_state_dist": 27.19,
+      "seconds": 366
+     },
+     {
+      "iteration": 25,
+      "success_rate": 0.84,
+      "mean_state_dist": 26.68,
+      "seconds": 368
+     },
+     {
+      "iteration": 26,
+      "success_rate": 0.82,
+      "mean_state_dist": 26.66,
+      "seconds": 367
+     },
+     {
+      "iteration": 27,
+      "success_rate": 0.82,
+      "mean_state_dist": 26.42,
+      "seconds": 366
+     },
+     {
+      "iteration": 28,
+      "success_rate": 0.82,
+      "mean_state_dist": 26.11,
+      "seconds": 354
+     },
+     {
+      "iteration": 29,
+      "success_rate": 0.8,
+      "mean_state_dist": 26.08,
+      "seconds": 353
+     },
+     {
+      "iteration": 30,
+      "success_rate": 0.82,
+      "mean_state_dist": 26.13,
+      "seconds": 344
+     }
+    ],
+    "finished": true
+   }
+  },
+  "wall": {
+   "99": {
+    "log": "wall/full_wall_20261010_135226.log",
+    "rounds": [
+     {
+      "solved": 27,
+      "episodes": 50,
+      "rate": 0.54
+     },
+     {
+      "solved": 45,
+      "episodes": 50,
+      "rate": 0.9
+     },
+     {
+      "solved": 46,
+      "episodes": 50,
+      "rate": 0.92
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.0,
+      "mean_state_dist": 25.24,
+      "seconds": 118
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.02,
+      "mean_state_dist": 18.01,
+      "seconds": 117
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.24,
+      "mean_state_dist": 12.99,
+      "seconds": 117
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.48,
+      "mean_state_dist": 9.13,
+      "seconds": 117
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.44,
+      "mean_state_dist": 7.53,
+      "seconds": 117
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.42,
+      "mean_state_dist": 7.58,
+      "seconds": 117
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.48,
+      "mean_state_dist": 6.7,
+      "seconds": 117
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.5,
+      "mean_state_dist": 6.59,
+      "seconds": 118
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.54,
+      "mean_state_dist": 6.83,
+      "seconds": 121
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.54,
+      "mean_state_dist": 6.53,
+      "seconds": 121
+     }
+    ],
+    "finished": false
+   },
+   "100": {
+    "log": "wall/wall_seed100_20261103_055240.log",
+    "rounds": [
+     {
+      "solved": 25,
+      "episodes": 50,
+      "rate": 0.5
+     },
+     {
+      "solved": 46,
+      "episodes": 50,
+      "rate": 0.92
+     },
+     {
+      "solved": 48,
+      "episodes": 50,
+      "rate": 0.96
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.0,
+      "mean_state_dist": 25.36,
+      "seconds": 131
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.02,
+      "mean_state_dist": 18.98,
+      "seconds": 121
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.22,
+      "mean_state_dist": 12.83,
+      "seconds": 122
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.46,
+      "mean_state_dist": 8.74,
+      "seconds": 122
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.56,
+      "mean_state_dist": 7.66,
+      "seconds": 122
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.52,
+      "mean_state_dist": 7.52,
+      "seconds": 121
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.56,
+      "mean_state_dist": 6.78,
+      "seconds": 121
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.52,
+      "mean_state_dist": 6.71,
+      "seconds": 122
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.46,
+      "mean_state_dist": 6.24,
+      "seconds": 122
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.5,
+      "mean_state_dist": 5.79,
+      "seconds": 122
+     }
+    ],
+    "finished": false
+   },
+   "101": {
+    "log": "wall/wall_seed101_20261103_120805.log",
+    "rounds": [
+     {
+      "solved": 26,
+      "episodes": 50,
+      "rate": 0.52
+     },
+     {
+      "solved": 46,
+      "episodes": 50,
+      "rate": 0.92
+     },
+     {
+      "solved": 48,
+      "episodes": 50,
+      "rate": 0.96
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.0,
+      "mean_state_dist": 25.96,
+      "seconds": 128
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.04,
+      "mean_state_dist": 19.72,
+      "seconds": 128
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.22,
+      "mean_state_dist": 14.78,
+      "seconds": 126
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.44,
+      "mean_state_dist": 10.83,
+      "seconds": 123
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.4,
+      "mean_state_dist": 8.23,
+      "seconds": 124
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.44,
+      "mean_state_dist": 8.61,
+      "seconds": 125
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.5,
+      "mean_state_dist": 7.43,
+      "seconds": 123
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.48,
+      "mean_state_dist": 7.11,
+      "seconds": 124
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.54,
+      "mean_state_dist": 6.72,
+      "seconds": 125
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.52,
+      "mean_state_dist": 6.69,
+      "seconds": 121
+     }
+    ],
+    "finished": false
+   }
+  },
+  "point_maze": {
+   "99": {
+    "log": "point_maze/point_maze_20261103_031258.log",
+    "rounds": [
+     {
+      "solved": 43,
+      "episodes": 50,
+      "rate": 0.86
+     },
+     {
+      "solved": 50,
+      "episodes": 50,
+      "rate": 1.0
+     }
+    ],
+    "round1_cem": [
+     {
+      "iteration": 1,
+      "success_rate": 0.3,
+      "mean_state_dist": 4.3,
+      "seconds": 404
+     },
+     {
+      "iteration": 2,
+      "success_rate": 0.46,
+      "mean_state_dist": 4.48,
+      "seconds": 720
+     },
+     {
+      "iteration": 3,
+      "success_rate": 0.52,
+      "mean_state_dist": 4.7,
+      "seconds": 361
+     },
+     {
+      "iteration": 4,
+      "success_rate": 0.6,
+      "mean_state_dist": 4.81,
+      "seconds": 361
+     },
+     {
+      "iteration": 5,
+      "success_rate": 0.7,
+      "mean_state_dist": 4.93,
+      "seconds": 359
+     },
+     {
+      "iteration": 6,
+      "success_rate": 0.68,
+      "mean_state_dist": 4.93,
+      "seconds": 358
+     },
+     {
+      "iteration": 7,
+      "success_rate": 0.76,
+      "mean_state_dist": 5.16,
+      "seconds": 359
+     },
+     {
+      "iteration": 8,
+      "success_rate": 0.82,
+      "mean_state_dist": 5.2,
+      "seconds": 359
+     },
+     {
+      "iteration": 9,
+      "success_rate": 0.82,
+      "mean_state_dist": 5.26,
+      "seconds": 358
+     },
+     {
+      "iteration": 10,
+      "success_rate": 0.86,
+      "mean_state_dist": 5.4,
+      "seconds": 360
+     }
+    ],
+    "finished": true
+   }
+  }
+ }
+}

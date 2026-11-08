@@ -1,0 +1,123 @@
+{
+ "setup": {
+  "episodes": 20,
+  "seed": 2,
+  "cem_iters": 10,
+  "samples": 300,
+  "topk": 30,
+  "recorded_per_episode": 192,
+  "pairs": 19200,
+  "reject_fraction": 0.3,
+  "label": "real latent error in the top 10% for its imagined step"
+ },
+ "auroc_stratified": {
+  "step": {
+   "auroc": 0.5,
+   "spearman": null,
+   "auroc_ci": [
+    0.5,
+    0.5
+   ]
+  },
+  "dist_start": {
+   "auroc": 0.8049842363522377,
+   "spearman": 0.5124310985560999,
+   "auroc_ci": [
+    0.754166006793685,
+    0.8534946587046616
+   ]
+  },
+  "mc_dropout": {
+   "auroc": 0.8379487967785494,
+   "spearman": 0.5875839664645419,
+   "auroc_ci": [
+    0.7845700369134806,
+    0.8770865048336733
+   ]
+  },
+  "obs_perturb": {
+   "auroc": 0.44479995539158956,
+   "spearman": -0.31564120185933786,
+   "auroc_ci": [
+    0.3488990632420527,
+    0.5250362503379409
+   ]
+  },
+  "act_perturb": {
+   "auroc": 0.6559968171296297,
+   "spearman": 0.26143019477591567,
+   "auroc_ci": [
+    0.6207953971586423,
+    0.6897113276214337
+   ]
+  },
+  "knn": {
+   "auroc": 0.5143875687210648,
+   "spearman": -0.010064434622313262,
+   "auroc_ci": [
+    0.3960315805692894,
+    0.6131152551660879
+   ]
+  },
+  "cost": {
+   "auroc": 0.4522038966049383,
+   "spearman": -0.02611627045840697,
+   "auroc_ci": [
+    0.38866077172308877,
+    0.5307207919548234
+   ]
+  },
+  "random": {
+   "auroc": 0.5049317913290895,
+   "spearman": 0.0063356964385654566,
+   "auroc_ci": [
+    0.4865587829570247,
+    0.5205509456329729
+   ]
+  }
+ },
+ "rank_agreement_imagined_vs_real_cost": 0.7917718159478058,
+ "mean_plan_success": 0.65,
+ "candidate_success_rate": 0.06328125,
+ "error_by_step_median": [
+  0.057462625205516815,
+  0.07618759572505951,
+  0.09189493954181671,
+  0.10788870602846146,
+  0.12282538414001465
+ ],
+ "offline_gate": {
+  "plain (no gate)": {
+   "success": 0.7,
+   "state_dist": 43.031860733032225
+  },
+  "oracle (true error)": {
+   "success": 0.7,
+   "state_dist": 45.16249151229859
+  },
+  "random gate": {
+   "success": 0.75,
+   "state_dist": 45.852597045898435
+  },
+  "gate: mc_dropout": {
+   "success": 0.65,
+   "state_dist": 44.49237852096557
+  },
+  "gate: obs_perturb": {
+   "success": 0.65,
+   "state_dist": 43.29652299880981
+  },
+  "gate: act_perturb": {
+   "success": 0.7,
+   "state_dist": 47.03686685562134
+  },
+  "gate: knn": {
+   "success": 0.7,
+   "state_dist": 43.420672225952146
+  },
+  "gate: dist_start": {
+   "success": 0.65,
+   "state_dist": 48.15952806472778
+  }
+ }
+}

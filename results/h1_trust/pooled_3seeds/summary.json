@@ -1,0 +1,134 @@
+{
+ "setup": {
+  "runs": [
+   "pilot40",
+   "pilot20_s2",
+   "pilot20_s3"
+  ],
+  "episodes": 80,
+  "pairs": 76800,
+  "reject_fraction": 0.3,
+  "label": "real latent error in the top 10% for its imagined step (threshold per run)",
+  "combo": "rank average of mc_dropout and dist_start within each imagined step; pre-specified, no fitting"
+ },
+ "auroc_stratified": {
+  "act_perturb": {
+   "auroc": 0.657163182011357,
+   "spearman": 0.2677242182932419,
+   "auroc_ci": [
+    0.6382652263021337,
+    0.6741354828231935
+   ]
+  },
+  "cost": {
+   "auroc": 0.5106594038598331,
+   "spearman": 0.03739471781509783,
+   "auroc_ci": [
+    0.4747650141023322,
+    0.5509108318871752
+   ]
+  },
+  "dist_start": {
+   "auroc": 0.7896545033396026,
+   "spearman": 0.5050776177624134,
+   "auroc_ci": [
+    0.7609594151514391,
+    0.8181343480887457
+   ]
+  },
+  "knn": {
+   "auroc": 0.6188175201416015,
+   "spearman": 0.12077693016390165,
+   "auroc_ci": [
+    0.5633990741998735,
+    0.664138660267335
+   ]
+  },
+  "mc_dropout": {
+   "auroc": 0.8628616097532673,
+   "spearman": 0.651185821112545,
+   "auroc_ci": [
+    0.8446067059491481,
+    0.8799073431270021
+   ]
+  },
+  "obs_perturb": {
+   "auroc": 0.49611053466796873,
+   "spearman": -0.1722865350448774,
+   "auroc_ci": [
+    0.4403783944620326,
+    0.5459328344966132
+   ]
+  },
+  "random": {
+   "auroc": 0.500155583134404,
+   "spearman": -0.0018089977291591813,
+   "auroc_ci": [
+    0.4933265091447018,
+    0.5072763814864139
+   ]
+  },
+  "step": {
+   "auroc": 0.5,
+   "spearman": null,
+   "auroc_ci": [
+    0.5,
+    0.5
+   ]
+  },
+  "combo_mc_dist": {
+   "auroc": 0.8508961807062596,
+   "spearman": 0.63669908488505,
+   "auroc_ci": [
+    0.8305351404729314,
+    0.8693006698851632
+   ]
+  }
+ },
+ "auroc_by_run": {
+  "pilot40": {
+   "act_perturb": 0.6556070021641107,
+   "cost": 0.5051188151041667,
+   "dist_start": 0.7958247808762539,
+   "knn": 0.6460667174539448,
+   "mc_dropout": 0.8690531036000193,
+   "obs_perturb": 0.49776795940634644,
+   "random": 0.49767294047791283,
+   "step": 0.5,
+   "combo_mc_dist": 0.8560860527886284
+  },
+  "pilot20_s2": {
+   "act_perturb": 0.6559968171296297,
+   "cost": 0.4522038966049383,
+   "dist_start": 0.8049842363522377,
+   "knn": 0.5143875687210648,
+   "mc_dropout": 0.8379487967785494,
+   "obs_perturb": 0.44479995539158956,
+   "random": 0.5049317913290895,
+   "step": 0.5,
+   "combo_mc_dist": 0.8433065532166282
+  },
+  "pilot20_s3": {
+   "act_perturb": 0.6613563066647377,
+   "cost": 0.5755619755497685,
+   "dist_start": 0.7617442189911265,
+   "knn": 0.6627643349729938,
+   "mc_dropout": 0.8781035246672454,
+   "obs_perturb": 0.5449993369020062,
+   "random": 0.5005078727816359,
+   "step": 0.5,
+   "combo_mc_dist": 0.8505055368682484
+  }
+ },
+ "offline_gate_success": {
+  "plain (no gate)": 0.7125,
+  "oracle (true error)": 0.725,
+  "random gate": 0.7,
+  "gate: mc_dropout": 0.7,
+  "gate: act_perturb": 0.75,
+  "gate: knn": 0.6875,
+  "gate: dist_start": 0.675,
+  "gate: combo_mc_dist": 0.7
+ },
+ "candidate_success_rate": 0.06888020833333333
+}

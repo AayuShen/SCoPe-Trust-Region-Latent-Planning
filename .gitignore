@@ -19,3 +19,6 @@ wandb/
 *.pt
 *.ckpt
 *.zip
+
+# Original DINO-WM code: download it yourself (see README, setup step 2); never committed here
+external/
